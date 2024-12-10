@@ -1,0 +1,19 @@
+{
+  "name": "spotify-playground",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/demo.js",
+    "dev": "nodemon src/demo.js"
+  },
+  "keywords": [],
+  "author": "Kevin Loughead",
+  "license": "ISC",
+  "description": "Spotify API playground",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.7",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
